@@ -129,6 +129,7 @@ call s:h("CursorLineNr",  { "fg": s:orange,     "bg": s:lightblack })
 call s:h("SignColumn",    { "fg": s:orange,     "bg": s:lightblack })
 call s:h("Breakpoint",     { "fg": s:red,       "bg": s:lightblack })
 call s:h("BreakpointLine", { "fg": s:black,     "bg": s:red })
+call s:h("OllamaSuggestion", { "fg": s:grey,     "bg": s:lightgrey })
 
 " statusline
 call s:h("StatusLine",    { "fg": s:orange,     "bg": s:lightblack })
